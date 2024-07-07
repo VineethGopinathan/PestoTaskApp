@@ -1,6 +1,6 @@
 # PestoTaskApp
 
-**Instruction for Run the application**
+Instruction for Run the application
 
 1. Clone the Github project repository
 2. Open the PestoTaskApp.xcodeproj file in Xcode
@@ -10,7 +10,7 @@
 
 
 
-  ** Features/Development Assumption**
+  Features/Development Assumption
 
 
 1. This iOS App has been developed with MVVM architecture
