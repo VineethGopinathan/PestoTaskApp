@@ -17,8 +17,8 @@ Instruction for Run the application
 2. Data binding has been implmented with Apple Combine framework.
 3. Firebase RealTime Database has been implemented as the backend for Database.
 4. Implemented Basic CRUD operations or functionalities in the app.
-5. The code has priperly documented or commeted to more understanding.
-6. Since It is a simple Task app, Unit Testing is not relevant or didn't find critical components to implement Unit Tests.
+5. The code has properly documented or commented for more understanding.
+6. Since it is a simple Task app, Unit Testing is not relevant or didn't find critical components to implement Unit Tests.
 7. App has been developed with minimal UI and user friendly.
 
    
