@@ -1,0 +1,782 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		85311D3E2C3974E5004F42A1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 85311D3D2C3974E5004F42A1 /* GoogleService-Info.plist */; };
+		85311D422C39766B004F42A1 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 85311D412C39766B004F42A1 /* FirebaseAnalytics */; };
+		85311D442C39766B004F42A1 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = 85311D432C39766B004F42A1 /* FirebaseAnalyticsOnDeviceConversion */; };
+		85311D462C39766B004F42A1 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 85311D452C39766B004F42A1 /* FirebaseAnalyticsSwift */; };
+		85311D482C39766B004F42A1 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 85311D472C39766B004F42A1 /* FirebaseAuth */; };
+		85311D4A2C39766B004F42A1 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 85311D492C39766B004F42A1 /* FirebaseDatabase */; };
+		85311D4C2C39766B004F42A1 /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 85311D4B2C39766B004F42A1 /* FirebaseDatabaseSwift */; };
+		85651A742C372FEC003D2670 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85651A732C372FEC003D2670 /* AppDelegate.swift */; };
+		85651A762C372FEC003D2670 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85651A752C372FEC003D2670 /* SceneDelegate.swift */; };
+		85651A782C372FEC003D2670 /* TasksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85651A772C372FEC003D2670 /* TasksViewController.swift */; };
+		85651A7B2C372FEC003D2670 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85651A792C372FEC003D2670 /* Main.storyboard */; };
+		85651A7D2C372FEE003D2670 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85651A7C2C372FEE003D2670 /* Assets.xcassets */; };
+		85651A802C372FEE003D2670 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85651A7E2C372FEE003D2670 /* LaunchScreen.storyboard */; };
+		85651A8B2C372FEF003D2670 /* PestoTaskAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85651A8A2C372FEF003D2670 /* PestoTaskAppTests.swift */; };
+		85651A952C372FEF003D2670 /* PestoTaskAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85651A942C372FEF003D2670 /* PestoTaskAppUITests.swift */; };
+		85651A972C372FEF003D2670 /* PestoTaskAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85651A962C372FEF003D2670 /* PestoTaskAppUITestsLaunchTests.swift */; };
+		85651AA52C373A6E003D2670 /* AddTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85651AA42C373A6E003D2670 /* AddTaskViewController.swift */; };
+		85A6529B2C39BEBE00A2604A /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A6529A2C39BEBE00A2604A /* Task.swift */; };
+		85A6529D2C39BF5400A2604A /* TaskListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A6529C2C39BF5400A2604A /* TaskListViewModel.swift */; };
+		85A6529F2C39BF6900A2604A /* AddTaskViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A6529E2C39BF6900A2604A /* AddTaskViewModel.swift */; };
+		85A652A12C39C0C200A2604A /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A652A02C39C0C200A2604A /* DatabaseManager.swift */; };
+		85FBC8322C39234900DD73C0 /* TaskListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FBC8302C39234900DD73C0 /* TaskListTableViewCell.swift */; };
+		85FBC8332C39234900DD73C0 /* TaskListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85FBC8312C39234900DD73C0 /* TaskListTableViewCell.xib */; };
+		85FBC8382C3923CE00DD73C0 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FBC8372C3923CE00DD73C0 /* Constants.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		85651A872C372FEF003D2670 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 85651A682C372FEC003D2670 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85651A6F2C372FEC003D2670;
+			remoteInfo = PestoTaskApp;
+		};
+		85651A912C372FEF003D2670 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 85651A682C372FEC003D2670 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85651A6F2C372FEC003D2670;
+			remoteInfo = PestoTaskApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		85311D3D2C3974E5004F42A1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		85651A702C372FEC003D2670 /* PestoTaskApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PestoTaskApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		85651A732C372FEC003D2670 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		85651A752C372FEC003D2670 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		85651A772C372FEC003D2670 /* TasksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksViewController.swift; sourceTree = "<group>"; };
+		85651A7A2C372FEC003D2670 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		85651A7C2C372FEE003D2670 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		85651A7F2C372FEE003D2670 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		85651A812C372FEE003D2670 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85651A862C372FEF003D2670 /* PestoTaskAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PestoTaskAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		85651A8A2C372FEF003D2670 /* PestoTaskAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PestoTaskAppTests.swift; sourceTree = "<group>"; };
+		85651A902C372FEF003D2670 /* PestoTaskAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PestoTaskAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		85651A942C372FEF003D2670 /* PestoTaskAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PestoTaskAppUITests.swift; sourceTree = "<group>"; };
+		85651A962C372FEF003D2670 /* PestoTaskAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PestoTaskAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		85651AA42C373A6E003D2670 /* AddTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskViewController.swift; sourceTree = "<group>"; };
+		85A6529A2C39BEBE00A2604A /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		85A6529C2C39BF5400A2604A /* TaskListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListViewModel.swift; sourceTree = "<group>"; };
+		85A6529E2C39BF6900A2604A /* AddTaskViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskViewModel.swift; sourceTree = "<group>"; };
+		85A652A02C39C0C200A2604A /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		85FBC8302C39234900DD73C0 /* TaskListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListTableViewCell.swift; sourceTree = "<group>"; };
+		85FBC8312C39234900DD73C0 /* TaskListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TaskListTableViewCell.xib; sourceTree = "<group>"; };
+		85FBC8372C3923CE00DD73C0 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		85651A6D2C372FEC003D2670 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85311D4C2C39766B004F42A1 /* FirebaseDatabaseSwift in Frameworks */,
+				85311D4A2C39766B004F42A1 /* FirebaseDatabase in Frameworks */,
+				85311D462C39766B004F42A1 /* FirebaseAnalyticsSwift in Frameworks */,
+				85311D422C39766B004F42A1 /* FirebaseAnalytics in Frameworks */,
+				85311D442C39766B004F42A1 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */,
+				85311D482C39766B004F42A1 /* FirebaseAuth in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85651A832C372FEF003D2670 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85651A8D2C372FEF003D2670 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		85311D3F2C3974EB004F42A1 /* Config files */ = {
+			isa = PBXGroup;
+			children = (
+				85311D3D2C3974E5004F42A1 /* GoogleService-Info.plist */,
+			);
+			path = "Config files";
+			sourceTree = "<group>";
+		};
+		85311D4E2C398843004F42A1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				85A6529A2C39BEBE00A2604A /* Task.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		85311D4F2C398850004F42A1 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				85A6529C2C39BF5400A2604A /* TaskListViewModel.swift */,
+				85A6529E2C39BF6900A2604A /* AddTaskViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		85311D502C39885F004F42A1 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				85A652A02C39C0C200A2604A /* DatabaseManager.swift */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		85651A672C372FEC003D2670 = {
+			isa = PBXGroup;
+			children = (
+				85651A722C372FEC003D2670 /* PestoTaskApp */,
+				85651A892C372FEF003D2670 /* PestoTaskAppTests */,
+				85651A932C372FEF003D2670 /* PestoTaskAppUITests */,
+				85651A712C372FEC003D2670 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		85651A712C372FEC003D2670 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				85651A702C372FEC003D2670 /* PestoTaskApp.app */,
+				85651A862C372FEF003D2670 /* PestoTaskAppTests.xctest */,
+				85651A902C372FEF003D2670 /* PestoTaskAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		85651A722C372FEC003D2670 /* PestoTaskApp */ = {
+			isa = PBXGroup;
+			children = (
+				85311D502C39885F004F42A1 /* Database */,
+				85311D4F2C398850004F42A1 /* ViewModel */,
+				85311D4E2C398843004F42A1 /* Model */,
+				85311D3F2C3974EB004F42A1 /* Config files */,
+				85FBC8362C39239900DD73C0 /* Constants */,
+				85651AA32C373A4C003D2670 /* View */,
+				85FBC8342C39235B00DD73C0 /* Storyboard */,
+				85FBC8352C39236C00DD73C0 /* Xib */,
+				85651A7C2C372FEE003D2670 /* Assets.xcassets */,
+				85651A732C372FEC003D2670 /* AppDelegate.swift */,
+				85651A752C372FEC003D2670 /* SceneDelegate.swift */,
+				85651A812C372FEE003D2670 /* Info.plist */,
+				85651A7E2C372FEE003D2670 /* LaunchScreen.storyboard */,
+			);
+			path = PestoTaskApp;
+			sourceTree = "<group>";
+		};
+		85651A892C372FEF003D2670 /* PestoTaskAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				85651A8A2C372FEF003D2670 /* PestoTaskAppTests.swift */,
+			);
+			path = PestoTaskAppTests;
+			sourceTree = "<group>";
+		};
+		85651A932C372FEF003D2670 /* PestoTaskAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				85651A942C372FEF003D2670 /* PestoTaskAppUITests.swift */,
+				85651A962C372FEF003D2670 /* PestoTaskAppUITestsLaunchTests.swift */,
+			);
+			path = PestoTaskAppUITests;
+			sourceTree = "<group>";
+		};
+		85651AA32C373A4C003D2670 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				85FBC82F2C39231500DD73C0 /* Cells */,
+				85651A772C372FEC003D2670 /* TasksViewController.swift */,
+				85651AA42C373A6E003D2670 /* AddTaskViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		85FBC82F2C39231500DD73C0 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				85FBC8302C39234900DD73C0 /* TaskListTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		85FBC8342C39235B00DD73C0 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				85651A792C372FEC003D2670 /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		85FBC8352C39236C00DD73C0 /* Xib */ = {
+			isa = PBXGroup;
+			children = (
+				85FBC8312C39234900DD73C0 /* TaskListTableViewCell.xib */,
+			);
+			path = Xib;
+			sourceTree = "<group>";
+		};
+		85FBC8362C39239900DD73C0 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				85FBC8372C3923CE00DD73C0 /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		85651A6F2C372FEC003D2670 /* PestoTaskApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85651A9A2C372FEF003D2670 /* Build configuration list for PBXNativeTarget "PestoTaskApp" */;
+			buildPhases = (
+				85651A6C2C372FEC003D2670 /* Sources */,
+				85651A6D2C372FEC003D2670 /* Frameworks */,
+				85651A6E2C372FEC003D2670 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PestoTaskApp;
+			packageProductDependencies = (
+				85311D412C39766B004F42A1 /* FirebaseAnalytics */,
+				85311D432C39766B004F42A1 /* FirebaseAnalyticsOnDeviceConversion */,
+				85311D452C39766B004F42A1 /* FirebaseAnalyticsSwift */,
+				85311D472C39766B004F42A1 /* FirebaseAuth */,
+				85311D492C39766B004F42A1 /* FirebaseDatabase */,
+				85311D4B2C39766B004F42A1 /* FirebaseDatabaseSwift */,
+			);
+			productName = PestoTaskApp;
+			productReference = 85651A702C372FEC003D2670 /* PestoTaskApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		85651A852C372FEF003D2670 /* PestoTaskAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85651A9D2C372FEF003D2670 /* Build configuration list for PBXNativeTarget "PestoTaskAppTests" */;
+			buildPhases = (
+				85651A822C372FEF003D2670 /* Sources */,
+				85651A832C372FEF003D2670 /* Frameworks */,
+				85651A842C372FEF003D2670 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				85651A882C372FEF003D2670 /* PBXTargetDependency */,
+			);
+			name = PestoTaskAppTests;
+			productName = PestoTaskAppTests;
+			productReference = 85651A862C372FEF003D2670 /* PestoTaskAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		85651A8F2C372FEF003D2670 /* PestoTaskAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85651AA02C372FEF003D2670 /* Build configuration list for PBXNativeTarget "PestoTaskAppUITests" */;
+			buildPhases = (
+				85651A8C2C372FEF003D2670 /* Sources */,
+				85651A8D2C372FEF003D2670 /* Frameworks */,
+				85651A8E2C372FEF003D2670 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				85651A922C372FEF003D2670 /* PBXTargetDependency */,
+			);
+			name = PestoTaskAppUITests;
+			productName = PestoTaskAppUITests;
+			productReference = 85651A902C372FEF003D2670 /* PestoTaskAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		85651A682C372FEC003D2670 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					85651A6F2C372FEC003D2670 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					85651A852C372FEF003D2670 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 85651A6F2C372FEC003D2670;
+					};
+					85651A8F2C372FEF003D2670 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 85651A6F2C372FEC003D2670;
+					};
+				};
+			};
+			buildConfigurationList = 85651A6B2C372FEC003D2670 /* Build configuration list for PBXProject "PestoTaskApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 85651A672C372FEC003D2670;
+			packageReferences = (
+				85311D402C39766B004F42A1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 85651A712C372FEC003D2670 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				85651A6F2C372FEC003D2670 /* PestoTaskApp */,
+				85651A852C372FEF003D2670 /* PestoTaskAppTests */,
+				85651A8F2C372FEF003D2670 /* PestoTaskAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		85651A6E2C372FEC003D2670 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85FBC8332C39234900DD73C0 /* TaskListTableViewCell.xib in Resources */,
+				85651A802C372FEE003D2670 /* LaunchScreen.storyboard in Resources */,
+				85311D3E2C3974E5004F42A1 /* GoogleService-Info.plist in Resources */,
+				85651A7D2C372FEE003D2670 /* Assets.xcassets in Resources */,
+				85651A7B2C372FEC003D2670 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85651A842C372FEF003D2670 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85651A8E2C372FEF003D2670 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		85651A6C2C372FEC003D2670 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85FBC8322C39234900DD73C0 /* TaskListTableViewCell.swift in Sources */,
+				85A6529F2C39BF6900A2604A /* AddTaskViewModel.swift in Sources */,
+				85A652A12C39C0C200A2604A /* DatabaseManager.swift in Sources */,
+				85651A782C372FEC003D2670 /* TasksViewController.swift in Sources */,
+				85651AA52C373A6E003D2670 /* AddTaskViewController.swift in Sources */,
+				85651A742C372FEC003D2670 /* AppDelegate.swift in Sources */,
+				85651A762C372FEC003D2670 /* SceneDelegate.swift in Sources */,
+				85A6529D2C39BF5400A2604A /* TaskListViewModel.swift in Sources */,
+				85A6529B2C39BEBE00A2604A /* Task.swift in Sources */,
+				85FBC8382C3923CE00DD73C0 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85651A822C372FEF003D2670 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85651A8B2C372FEF003D2670 /* PestoTaskAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85651A8C2C372FEF003D2670 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85651A952C372FEF003D2670 /* PestoTaskAppUITests.swift in Sources */,
+				85651A972C372FEF003D2670 /* PestoTaskAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		85651A882C372FEF003D2670 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 85651A6F2C372FEC003D2670 /* PestoTaskApp */;
+			targetProxy = 85651A872C372FEF003D2670 /* PBXContainerItemProxy */;
+		};
+		85651A922C372FEF003D2670 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 85651A6F2C372FEC003D2670 /* PestoTaskApp */;
+			targetProxy = 85651A912C372FEF003D2670 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		85651A792C372FEC003D2670 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85651A7A2C372FEC003D2670 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		85651A7E2C372FEE003D2670 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85651A7F2C372FEE003D2670 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		85651A982C372FEF003D2670 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		85651A992C372FEF003D2670 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		85651A9B2C372FEF003D2670 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V9ZJ8P446F;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PestoTaskApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vineeth.PestoTaskApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		85651A9C2C372FEF003D2670 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V9ZJ8P446F;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PestoTaskApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vineeth.PestoTaskApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		85651A9E2C372FEF003D2670 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V9ZJ8P446F;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vineeth.PestoTaskAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PestoTaskApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PestoTaskApp";
+			};
+			name = Debug;
+		};
+		85651A9F2C372FEF003D2670 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V9ZJ8P446F;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vineeth.PestoTaskAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PestoTaskApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PestoTaskApp";
+			};
+			name = Release;
+		};
+		85651AA12C372FEF003D2670 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V9ZJ8P446F;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vineeth.PestoTaskAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PestoTaskApp;
+			};
+			name = Debug;
+		};
+		85651AA22C372FEF003D2670 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V9ZJ8P446F;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vineeth.PestoTaskAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PestoTaskApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		85651A6B2C372FEC003D2670 /* Build configuration list for PBXProject "PestoTaskApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85651A982C372FEF003D2670 /* Debug */,
+				85651A992C372FEF003D2670 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85651A9A2C372FEF003D2670 /* Build configuration list for PBXNativeTarget "PestoTaskApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85651A9B2C372FEF003D2670 /* Debug */,
+				85651A9C2C372FEF003D2670 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85651A9D2C372FEF003D2670 /* Build configuration list for PBXNativeTarget "PestoTaskAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85651A9E2C372FEF003D2670 /* Debug */,
+				85651A9F2C372FEF003D2670 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85651AA02C372FEF003D2670 /* Build configuration list for PBXNativeTarget "PestoTaskAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85651AA12C372FEF003D2670 /* Debug */,
+				85651AA22C372FEF003D2670 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		85311D402C39766B004F42A1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		85311D412C39766B004F42A1 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 85311D402C39766B004F42A1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		85311D432C39766B004F42A1 /* FirebaseAnalyticsOnDeviceConversion */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 85311D402C39766B004F42A1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsOnDeviceConversion;
+		};
+		85311D452C39766B004F42A1 /* FirebaseAnalyticsSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 85311D402C39766B004F42A1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsSwift;
+		};
+		85311D472C39766B004F42A1 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 85311D402C39766B004F42A1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		85311D492C39766B004F42A1 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 85311D402C39766B004F42A1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		85311D4B2C39766B004F42A1 /* FirebaseDatabaseSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 85311D402C39766B004F42A1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabaseSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 85651A682C372FEC003D2670 /* Project object */;
+}
